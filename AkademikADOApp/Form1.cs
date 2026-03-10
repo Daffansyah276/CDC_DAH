@@ -11,5 +11,7 @@ namespace AkademikADOApp
         "Data Source=VILHAZEEE\\YAEMIKO;Initial Catalog=DBAkademikADO;Integrated Security=True";
         //Object SqlConnection
         SqlConnection conn;
-
-
+        public Form1()
+        {
+            InitializeComponent();
+        }
