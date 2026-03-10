@@ -46,6 +46,7 @@ namespace AkademikADOApp
         {
             try
             {
+                conn = new SqlConnection(connString);
 
             }
         }
