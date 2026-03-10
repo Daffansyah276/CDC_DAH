@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -41,7 +48,6 @@ namespace AkademikADOApp
             }
         }
 
-
         private void btnDisconnect_Click(object sender, EventArgs e)
         {
             try
@@ -50,6 +56,7 @@ namespace AkademikADOApp
                 conn.Open();
                 lblStatus.Text = "Status : Database Disconnected";
                 MessageBox.Show("Diskoneksi dari database berhasil!");
+            }
             catch (Exception ex)
             {
                 MessageBox.Show("Diskoneksi Gagal: " + ex.Message);
