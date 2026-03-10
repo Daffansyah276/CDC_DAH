@@ -40,3 +40,11 @@ namespace AkademikADOApp
                 MessageBox.Show("Koneksi Gagal: " + ex.Message);
             }
         }
+
+
+        private void btnDisconnect_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
