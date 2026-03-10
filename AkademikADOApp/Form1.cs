@@ -25,3 +25,7 @@ namespace AkademikADOApp
         {
 
         }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+        }
