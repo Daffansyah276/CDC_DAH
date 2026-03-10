@@ -47,7 +47,8 @@ namespace AkademikADOApp
             try
             {
                 conn = new SqlConnection(connString);
-
+                conn.Open();
+                lblStatus.Text = "Status : Database Disconnected";
             }
         }
     }
